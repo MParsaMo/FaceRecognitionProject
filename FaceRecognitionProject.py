@@ -9,10 +9,6 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 
-# Note: matplotlib.use('TkAgg') is often specific to certain environments.
-# For a GitHub-friendly script, it's generally best practice to remove it
-# unless there's a specific requirement for that backend, as Matplotlib
-# can usually select an appropriate one for the environment.
 
 def load_olivetti_faces_data():
     """
